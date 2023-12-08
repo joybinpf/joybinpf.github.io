@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PF ChatBot</title>
+    <link rel="stylesheet" href="cb_style_m.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+</head>
+<body>
+
+    <div class="chatbox">
+        <div class="chat-header">
+            <img width="75px" src="pf-logo.png"> AI ChatBot
+        </div>
+        <div class="chat-messages">
+            
+        </div>
+        
+      
+        <div id='chat_input_box' class="chat-input-box" style="display: none;">
+            <div id="chat_input_title" class="chat-input-title">Select your answer</div>
+           
+                <div id="chat_input_textbox" class="chat-input">
+                    <!-- <input class="chat-textbox" type="text" id="userInput" placeholder="Type your question here and ask..."> -->
+                    <textarea class="message-input-area" id="user_input" placeholder="Hint: 'Summarise the information for me.'"></textarea>
+                    
+                </div>
+
+             <div id="edgeContainer" class="edge-container"></div>     
+        </div>
+
+    <div id='button_box' class= "button-box">
+        <button style="display: none;" class="back-button" id='back_button' onclick="LoadLastNode()">Back</button>
+        &nbsp;
+        <button style="display: none;" class="main-button" id='main_button' onclick="sendUserResponse()">Send</button> 
+    </div>
+<!-- <script type="text/javascript" src="main_min_auto.js"></script>     -->
+
+<script type="text/javascript" src="graph_flow.js"></script>
+<script type="text/javascript" src="pf_bot.js"></script>
+    
+ 
+    
+
+   
+</body>
+</html>

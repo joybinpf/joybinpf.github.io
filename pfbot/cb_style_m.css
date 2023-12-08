@@ -1,0 +1,193 @@
+  body {
+            font-family: 'Verdana';
+            margin: 3px;
+            padding: 2px;
+            font-size: 16px;
+            /* background-color: #324b63; */
+            background-color: gray;
+  }
+  a {
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;    /* Makes the text bold */
+    color: orange;        /* Sets the text color to orange */
+  }
+        .chatbox {
+            max-width: 400px;
+            margin: 5px auto;
+            border: 1px solid;
+            border-radius: 10px;
+            background-color: white;
+            background: linear-gradient(135deg, white, azure); 
+            
+            /* color: white; */
+            box-shadow: 0 2px 4px gray;
+            overflow: hidden;
+            height: 750px;
+            
+        }
+
+        .chat-header {
+            background-color: #243646;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bolder;
+        }
+        .chat-messages {
+            padding: 10px;
+            overflow-y: scroll;
+            height: 450px;
+        }
+        .chat-input-box {
+            display: none;
+            margin: 3px;
+            border-radius: 10px;
+            /* font-size: 12px; */
+            padding: 10px;
+            border: aquamarine solid 1px;
+            /* background-color: gainsboro; */
+                        height: 120px;
+
+            /* box-sizing: border-box; */
+            resize: none;
+            overflow-y: scroll;
+            
+        }
+        .chat-input-title{
+            font-weight: bold;
+            font-size: small;
+            
+        }
+        .chat-input-textbox{
+           
+            height: 110px;
+            display: none;
+            width: 80%;
+            /* overflow-y: scroll; */
+
+        }
+        .message-input-area{
+            width: 100%;
+            height: 70px;
+            /* font-size: small; */
+            font-weight: bold;
+            color: #243646;
+            /* padding: 5px; */
+            /* border: none; */
+            /* border-top: 1px solid #ccc; */
+            /* margin:3px; */
+
+            box-sizing: border-box;
+            resize: none;
+            /* overflow-y: scroll; */
+            /* outline: none; */
+           
+        }
+        .edge-container{
+            width: 90%;
+            font-size: small;
+            font-weight: bold;
+            color: #243646;
+            line-height: 1.75;
+            
+        }
+            
+        .bot-message {
+            margin: 5px 0;
+            font-size: small;
+            text-align: left;
+            padding: 3px;
+            width: fit-content;
+            ;
+            /* float: right; */
+        }
+        .user-message {
+            margin: 5px 0;
+            
+            font-size: small;    
+            text-align: right;
+            padding: 3px;
+            
+            
+        }
+
+     .button-box{
+        margin: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+    .main-button {
+        display: block;
+        font-size: small;
+        font-weight: bold;
+        background-color: #243646;
+        color: white;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 10px;
+        width: 50%;
+        /* width: %; */
+        
+        cursor: pointer;
+        
+        
+    }
+    .back-button {
+        display: block;
+        font-size: small;
+        font-weight: bold;
+        background-color: #243646;
+        color: white;
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 10px;
+        width: 45%;
+        
+        cursor: pointer;
+        
+        
+    }
+
+    .chat-element{
+
+      width: 400px;
+      height: 200px;
+    }
+
+/* Modify the scrollbar width and track color */
+::-webkit-scrollbar {
+    width: 5px; /* You can adjust this value to make it thinner or wider */
+  }
+  
+  /* Modify the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(36, 54, 70,0.5); /* You can change the color of the thumb */
+  }
+  
+  /* Modify the scrollbar track (the background) */
+  ::-webkit-scrollbar-track {
+    background: rgba(36, 54, 70,0.1); /* You can change the color of the track */
+  }
+
+  ::-webkit-scrollbar-thumb:horizontal {
+    height: 5px; /* You can adjust this value to make it thinner or wider */
+  }
+  
+  /* Modify the horizontal scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb:horizontal {
+    background:rgba(36, 54, 70,0.5);/* You can change the color of the thumb */
+  }
+  
+  /* Modify the horizontal scrollbar track (the background) */
+  ::-webkit-scrollbar-track:horizontal {
+    background:  rgba(36, 54, 70,0.1); /* You can change the color of the track */
+  }
