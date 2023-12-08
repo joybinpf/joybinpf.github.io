@@ -571,8 +571,14 @@ function generateRandomString(length) {
 }
 
 function sanitizeText(inputText) {
-    var doc = new DOMParser().parseFromString(inputText, 'text/html');
-    return doc.body.textContent || "";
+    // var doc = new DOMParser().parseFromString(inputText, 'text/html');
+    // return doc.body.textContent || "";
+
+    // Regular expression to match HTML tags and their content
+    var regex = /<[^>]+>([^<]*)<\/[^>]+>/g;
+
+    // Replace matched patterns with an empty string
+    var sanitizedText = inputText.replace(regex, '');
 }
 
 
