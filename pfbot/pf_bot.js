@@ -570,6 +570,10 @@ function generateRandomString(length) {
     return result;
 }
 
+function sanitizeText(inputText) {
+    var doc = new DOMParser().parseFromString(inputText, 'text/html');
+    return doc.body.textContent || "";
+}
 
 
   
@@ -577,7 +581,7 @@ async function doJugalQuery(){
 
        const currentNodeType=getNodeType(CurrentNode);
         if(currentNodeType===2){
-                const userInput = getTextFromTextarea('user_input');
+                const userInput = sanitizeText(getTextFromTextarea('user_input'));
                 if (userInput.trim() === '') return;
                 showMessageOnButton('main_button','&#8987;<b>Working..<b>');
                 disableItem('main_button');
@@ -772,7 +776,7 @@ function log_msg(agnt,msg){
 
 
 async function submitData(k, v) {
-            const url = 'http://192.168.43.152:8002/submit-data';
+            const url = 'http://0.0.0.0:8002/submit-data';
            
 
             const data = {
