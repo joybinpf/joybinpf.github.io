@@ -1,0 +1,1 @@
+This Chat Bot features PF Foundations Information with Jugalbandi AI API integration as well as integration with react management dashboard being developed..This bot version has conversation logging feature.
