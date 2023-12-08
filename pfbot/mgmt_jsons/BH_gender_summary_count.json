@@ -1,0 +1,50 @@
+[
+  {
+    "category_title_key": "gender_type",
+    "category_title": "Female",
+    "border_color": "#1984c5",
+    "point_background_color": "#1984c5",
+    "value_key": [],
+    "value": [],
+    "total_key": "gender_count",
+    "total_value": "158211",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "gender_female.png"
+  },
+  {
+    "category_title_key": "gender_type",
+    "category_title": "Male",
+    "border_color": "#22a7f0",
+    "point_background_color": "#22a7f0",
+    "value_key": [],
+    "value": [],
+    "total_key": "gender_count",
+    "total_value": "926707",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "gender_male.png"
+  },
+  {
+    "category_title_key": "gender_type",
+    "category_title": "Not disclosed",
+    "border_color": "#63bff0",
+    "point_background_color": "#63bff0",
+    "value_key": [],
+    "value": [],
+    "total_key": "gender_count",
+    "total_value": "79",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "not_disclose.png"
+  },
+  {
+    "category_title_key": "gender_type",
+    "category_title": "Transgender",
+    "border_color": "#a7d5ed",
+    "point_background_color": "#a7d5ed",
+    "value_key": [],
+    "value": [],
+    "total_key": "gender_count",
+    "total_value": "154",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "gender_transgender.png"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "category_title_key": "algorithm",
+    "category_title": "FEVER",
+    "border_color": "#1984c5",
+    "point_background_color": "#1984c5",
+    "value_key": ["y2019", "y2020", "y2021", "y2022", "y2023"],
+    "value": ["1449", "13575", "2888", "1038", "659"],
+    "total_key": "total",
+    "total_value": "18609",
+    "last_updated_on": "2023-Jul-24 11:17:23"
+  },
+  {
+    "category_title_key": "algorithm",
+    "category_title": "COUGH",
+    "border_color": "#22a7f0",
+    "point_background_color": "#22a7f0",
+    "value_key": ["y2019", "y2020", "y2021", "y2022", "y2023"],
+    "value": ["257", "11939", "2329", "1233", "574"],
+    "total_key": "total",
+    "total_value": "16332",
+    "last_updated_on": "2023-Jul-24 11:17:23"
+  },
+  {
+    "category_title_key": "algorithm",
+    "category_title": "CHRONIC HEADACHE",
+    "border_color": "#63bff0",
+    "point_background_color": "#63bff0",
+    "value_key": ["y2019", "y2020", "y2021", "y2022", "y2023"],
+    "value": ["298", "2059", "747", "573", "512"],
+    "total_key": "total",
+    "total_value": "4189",
+    "last_updated_on": "2023-Jul-24 11:17:23"
+  },
+  {
+    "category_title_key": "algorithm",
+    "category_title": "SHORTNESS OF BREATH",
+    "border_color": "#a7d5ed",
+    "point_background_color": "#a7d5ed",
+    "value_key": ["y2019", "y2020", "y2021", "y2022", "y2023"],
+    "value": ["16", "3319", "471", "154", "112"],
+    "total_key": "total",
+    "total_value": "4072",
+    "last_updated_on": "2023-Jul-24 11:17:23"
+  },
+  {
+    "category_title_key": "algorithm",
+    "category_title": "SORE THROAT",
+    "border_color": "#e2e2e2",
+    "point_background_color": "#e2e2e2",
+    "value_key": ["y2019", "y2020", "y2021", "y2022", "y2023"],
+    "value": ["24", "2671", "237", "43", "32"],
+    "total_key": "total",
+    "total_value": "3007",
+    "last_updated_on": "2023-Jul-24 11:17:23"
+  },
+  {
+    "category_title_key": "algorithm",
+    "category_title": "CHEST PAIN",
+    "border_color": "#e1a692",
+    "point_background_color": "#e1a692",
+    "value_key": ["y2019", "y2020", "y2021", "y2022", "y2023"],
+    "value": ["102", "1654", "653", "331", "222"],
+    "total_key": "total",
+    "total_value": "2962",
+    "last_updated_on": "2023-Jul-24 11:17:23"
+  },
+  {
+    "category_title_key": "algorithm",
+    "category_title": "DEPRESSION",
+    "border_color": "#de6e56",
+    "point_background_color": "#de6e56",
+    "value_key": ["y2019", "y2020", "y2021", "y2022", "y2023"],
+    "value": ["70", "432", "841", "654", "342"],
+    "total_key": "total",
+    "total_value": "2339",
+    "last_updated_on": "2023-Jul-24 11:17:23"
+  },
+  {
+    "category_title_key": "algorithm",
+    "category_title": "BELCHING/ GROWLING STOMACH/ GAS",
+    "border_color": "#e14b31",
+    "point_background_color": "#e14b31",
+    "value_key": ["y2019", "y2020", "y2021", "y2022", "y2023"],
+    "value": ["132", "1100", "448", "256", "232"],
+    "total_key": "total",
+    "total_value": "2168",
+    "last_updated_on": "2023-Jul-24 11:17:23"
+  },
+  {
+    "category_title_key": "algorithm",
+    "category_title": "STOMACH ACHE",
+    "border_color": "#c23728",
+    "point_background_color": "#c23728",
+    "value_key": ["y2019", "y2020", "y2021", "y2022", "y2023"],
+    "value": ["104", "846", "522", "146", "0"],
+    "total_key": "total",
+    "total_value": "1618",
+    "last_updated_on": "2023-Jul-24 11:17:23"
+  },
+  {
+    "category_title_key": "algorithm",
+    "category_title": "BACK PAIN",
+    "border_color": "#e27c7c",
+    "point_background_color": "#e27c7c",
+    "value_key": ["y2019", "y2020", "y2021", "y2022", "y2023"],
+    "value": ["122", "498", "185", "262", "219"],
+    "total_key": "total",
+    "total_value": "1286",
+    "last_updated_on": "2023-Jul-24 11:17:23"
+  }
+]

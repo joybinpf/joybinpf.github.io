@@ -1,0 +1,86 @@
+[
+  {
+    "category_title_key": "marital_status_type",
+    "category_title": "DIVORCED",
+    "border_color": "#1984c5",
+    "point_background_color": "#1984c5",
+    "value_key": [],
+    "value": [],
+    "total_key": "marital_status_count",
+    "total_value": "95",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "ms_divorce.png"
+  },
+  {
+    "category_title_key": "marital_status_type",
+    "category_title": "MARRIED",
+    "border_color": "#22a7f0",
+    "point_background_color": "#22a7f0",
+    "value_key": [],
+    "value": [],
+    "total_key": "marital_status_count",
+    "total_value": "46085",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "ms_wedding_couple.png"
+  },
+  {
+    "category_title_key": "marital_status_type",
+    "category_title": "NOT APPLICABLE",
+    "border_color": "#63bff0",
+    "point_background_color": "#63bff0",
+    "value_key": [],
+    "value": [],
+    "total_key": "marital_status_count",
+    "total_value": "1588",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "not_disclose.png"
+  },
+  {
+    "category_title_key": "marital_status_type",
+    "category_title": "SEPERATED",
+    "border_color": "#a7d5ed",
+    "point_background_color": "#a7d5ed",
+    "value_key": [],
+    "value": [],
+    "total_key": "marital_status_count",
+    "total_value": "44",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "ms_separated.png"
+  },
+  {
+    "category_title_key": "marital_status_type",
+    "category_title": "UNMARRIED",
+    "border_color": "#e2e2e2",
+    "point_background_color": "#e2e2e2",
+    "value_key": [],
+    "value": [],
+    "total_key": "marital_status_count",
+    "total_value": "16059",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "ms_bachelor.png"
+  },
+  {
+    "category_title_key": "marital_status_type",
+    "category_title": "WIDOW",
+    "border_color": "#e1a692",
+    "point_background_color": "#e1a692",
+    "value_key": [],
+    "value": [],
+    "total_key": "marital_status_count",
+    "total_value": "1486",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "ms_elder.png"
+  },
+  {
+    "category_title_key": "marital_status_type",
+    "category_title": "WIDOWER",
+    "border_color": "#de6e56",
+    "point_background_color": "#de6e56",
+    "value_key": [],
+    "value": [],
+    "total_key": "marital_status_count",
+    "total_value": "313",
+    "last_updated_on": "2023-Jul-24 11:18:20",
+    "icon": "ms_widower.png"
+  }
+]
