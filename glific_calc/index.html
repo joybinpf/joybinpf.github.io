@@ -41,16 +41,35 @@
 </div>
     </h1>
   <center>
-<button onclick="increaseFontSize()">Increase Font Size</button>
+<button onclick="increaseTableFontSize()"> Font Size - </button> &nbsp;&nbsp;
+    <button onclick="decreaseTableFontSize()"> Font Size + </button>
 
     <script>
-        function increaseFontSize() {
-            var element = document.getElementById("inputs");
+      function increaseTableFontSize() {
+      increaseFontSize("inputs");
+      
+      }      
+              function decreaseTableFontSize() {
+      decreaseFontSize("inputs");
+      
+      }      
+      
+        function increaseFontSize(idtxt) {
+            var element = document.getElementById(idtxt);
             var currentSize = window.getComputedStyle(element, null).getPropertyValue('font-size');
             var newSize = parseFloat(currentSize) + 2;
             element.style.fontSize = newSize + 'px';
         }
+      
+function decreaseFontSize(idtxt) {
+            var element = document.getElementById(idtxt);
+            var currentSize = window.getComputedStyle(element, null).getPropertyValue('font-size');
+            var newSize = parseFloat(currentSize) - 2;
+            element.style.fontSize = newSize + 'px';
+        }
+
     </script>
+    
 </center>
   <table id='inputs'>
     <tr><th colspan="3">User Inputs</th></tr>
